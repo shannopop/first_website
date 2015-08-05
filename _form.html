@@ -1,0 +1,49 @@
+<form action="http://shannonsfirstwebsite.com/contact">
+    <fieldset>
+        <legend>Descriptor of Fields that follow</legend>
+        <div class="fieldWrapper text">
+            <label for="firstName">First Name</label>
+            <input type="text" name="firstName" value="" placeholder="Please Type Your First Name"/>
+        </div>
+        <div class="fieldWrapper text">
+            <label for="lastName">First Name</label>
+            <input type="text" name="lastName" value="" placeholder="Please Type Your Last Name"/>
+        </div>
+        <div class="fieldWrapper radio">
+            <div class="radioWrapper">
+                <label>Northern Hemisphere <input type="radio" name="hemisphere" value="northern"/></label>
+            </div>
+            <div class="radioWrapper">
+                <label>Southern Hemisphere <input type="radio" name="hemisphere" value="southern"/></label>
+            </div>
+        </div>
+        <div class="fieldWrapper checkbox">
+            <div class="checkboxWrapper">
+                <label for="checkbox1">Checkbox 1</label>
+                <input type="checkbox" name="checkbox1" value="checkbox1Option"/>
+            </div>
+            <div class="checkboxWrapper">
+                <label for="checkbox2">Checkbox 2</label>
+                <input type="checkbox" name="checkbox2" value="checkbox2Option"/>
+            </div>
+            <div class="checkboxWrapper">
+                <label for="checkbox3">Checkbox 3</label>
+                <input type="checkbox" name="checkbox3" value="checkbox3Option"/>
+            </div>
+        </div>
+        <div class="fieldWrapper select">
+            <select name="optionSelect">
+                <option value="" selected="selected">Please Select and Option</option>
+                <option value="value1">This is option 1</option>
+                <option value="value2">This is option 2</option>
+                <option value="value3">This is option 3</option>
+            </select>
+        </div>
+        <div class="fieldWrapper textarea">
+            <textarea>
+                This is the text area text that would show up as the default text.
+            </textarea>
+        </div>
+        <input type="submit" value="Click me to Submit!"/>
+    </fieldset>
+</form>

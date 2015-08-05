@@ -362,6 +362,47 @@ img {
   	text-align: center;
 }
 
+::-webkit-input-placeholder {
+   color: #777;
+}
+:-moz-placeholder {
+   color: #777;  
+}
+::-moz-placeholder {
+   color: #777;  
+}
+:-ms-input-placeholder {  
+   color: #777;  
+}
+
+form{
+	width: 400px;
+    margin: 0 auto;
+}
+
+.fieldWrapper label{
+	display: inline-block;
+	width: 70px;
+}
+
+.fieldWrapper{
+	margin: 20px 0;
+}
+
+.fieldWrapper.text input, .fieldWrapper.email input, .fieldWrapper.textarea textarea {
+	padding: 10px 20px;
+	width: 300px;
+}
+
+.fieldWrapper.textarea textarea{
+	padding: 40px 10px;
+	vertical-align: middle;
+}
+
+.fieldWrapper.textarea label{
+	vertical-align: middle;
+}
+
 @media screen and (min-width: 768px) {
 	.navContainer{
 		width: 250px;
